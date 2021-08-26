@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Portfolio Website</title>
+    <!-- This link below is to compensate for differentiation between web browsers-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <!-- This link below is for the social media icons-->
+    <script src="https://kit.fontawesome.com/3c7840d2ad.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+        
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/James.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <section class="intro">
+        <h1 class="section__title section__title-intro">
+            <strong>Travelfly</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle-intro">Coded by: James Hicks</p>
+        <img src="img/Travelflyimg01.JPG" alt="Travel Fly" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>Travelfly was my first attempt at a responsive website. To achieve responsiveness I had to use media queries with a max-width value in order to change pixel size and change the styling of divs in side by side.</p>
+        <!-- <img src="img/Travelflyimg03.JPG" alt="Travelfly Image"> -->
+        <p>Travelfly was a single page website that I worked on over the course of 6 weeks. The goal of the project was to make a single paged responsive website that was user friendly in design and navigation.</p>
+        <p>Some of the issues I encountered in this project were alignment and styling issues, figuring out how to style the right way and functionality with JavaScript. Using JavaScript to make navigating the site possible was a challenge that I overcomed.</p>
+        <p>Here is the link to view the site on github: https://hicksjc.github.io/Travelfly/Travelfly-main/Travelfly/</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:jchicks0712@gmail.com" class="footer__link">jchicks0712@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/james-hicks-9339001a1" class="social-list__link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com/hicksjc" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+                </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

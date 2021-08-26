@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Portfolio Website</title>
+    <!-- This link below is to compensate for differentiation between web browsers-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <!-- This link below is for the social media icons-->
+    <script src="https://kit.fontawesome.com/3c7840d2ad.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+        
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/James.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title-intro">
+            Hi, My name is <strong> James Hicks </strong>
+        </h1>
+        <p class="section__subtitle section__subtitle-intro">front-end dev</p>
+        <img src="img/Portfolioimg03.jpg" alt="Image" class="intro__img">
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title-services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>I have been on a couple of projects wehre design and development has been a priority. Not only have I got the chance to work on making UI better but have also had the opportunity on implementing CRUD methods into a team project as well as develop an API server from scratch with the help of a couple of teammates.</p>
+            </div> <!-- /service-->
+
+            <div class="service">
+                <h3>Responsiveness</h3>
+                <p>Throughout these few development projects responsiveness and design has been a priority for some. The ability to make a website responsive to the changing of a viewport size isn't easy but when it is done it can be not only refreshing for the programmer but also easier to understand for the viewer. It allows the viewer to be able to increase the size of text to see better, and changes several aspects of the site itself to compensate for a smaller or larger viewport size.</p>
+            </div> <!-- /service-->
+
+            <div class="service">
+                <h3>Teamwork + Debugging</h3>
+                <p>One of the things that I enjoy most about what I do is working with other people and helping other people when they have issues. I live for the relief after the frustration of a problem, the "eureka" moment after a long days work of trying to figure out a problem. I also enjoy the satisfaction of working with a team, I like knowing that there is someone that I can contact for help if I am struggling with something.</p>
+            </div> <!-- /service-->
+        </div> <!-- /services-->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title-about">Who I am</h2>
+        <p class="section__subtitle section__subtitle-about">Designer & Developer Based out of Indy.
+        </p>
+
+        <div class="about-me__body">
+            <p>I am an adaptable Media Arts and Science major (3.3 GPA) currently pursuing a minor in informatics as well as a certificate in mult-device web development. Aiming to leverage proven communication, creative thinking, and problem-solving skills to successfully fill the Web Developer role at your company. Frequently praised as detail-oriented by my peers, I can be relied upon to help your company achieve its goals.</p>
+            <p>When i'm not working on Web Development I am a huge gamer, I like to play games on my own time and with friends I like to challenge myself and see how quickly I can complete a games main story line.</p>
+        </div>
+
+        <img src="img/Portfolioimg01.jpg" alt="James leaning against something?" class="about-me__img">
+    </section>
+    
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title-work">My Work</h2>
+        <p class="section__subtitle section__subtitle-work">A selection of my range of work</p>
+        <div class="portfolio">
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="img/Eventsyimg01.JPG" alt="Eventsy Website" class="portfolio__img" id="Eventsy">
+            </a>
+            <a href="portfolio-item02.html" class="portfolio__item">
+                <img src="img/Travelflyimg01.jpg" alt="Travelfly Website" class="portfolio__img" id="Travel">
+            </a>
+            <a href="portfolio-item03.html" class="portfolio__item">
+                <img src="img/VideoActiveGames01.JPG" alt="VideoActive Games" class="portfolio__img" id="VideoActiveGames">
+            </a>
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:jchicks0712@gmail.com" class="footer__link">jchicks0712@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="portfolio-item.html" class="social-list__link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="portfolio-item.html" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+                </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
